@@ -1,15 +1,61 @@
 body {
-    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-
-.header {
-    background-color: #f3efb6;
+header, #banner{
+    background-color: #fffbf0;
 }
-
-.logo {
-    width: 50%;
+#banner h1 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #fabe4c;
+    margin: 0px;
+    /*line-height: 60px;*/
 }
-
-.profile-pic {
-    width: 100%;
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #9eb73e 0%, #8ea825 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 25px;
+    cursor: pointer;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.img-box{
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+.img-box img{
+    height: 300px;
+}
+.product-title{
+    font-family: 'Oswald', sans-serif;
+}
+.product-text {
+    font-size: 13px;
+}
+.product-price{
+    font-size: 36px;
+    color: #ffaf27;
+}
+section{
+    padding: 30px 0;
+}
+#testimonial{
+    background-color: #f5e8e8;
+}
+.testimonial-item{
+    /*height: 300px;*/
+    margin: 0 auto;
+}
+.testimonial-item span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #03af00;
+}
+.testimonial-item p{
+    font-size: 18px;
 }
